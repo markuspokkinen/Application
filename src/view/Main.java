@@ -20,7 +20,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		// TODO Auto-generated method stub
-		
+		primaryStage.setTitle("Game");
 		GridPane gridpane = new GridPane();
 		Scene scene = new Scene(gridpane);
 		primaryStage.setScene(scene);
